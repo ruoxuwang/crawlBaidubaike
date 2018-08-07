@@ -48,10 +48,10 @@ rel_per_com.txt（由前面两个生成）| 非独立董事 刘旭 湖南博云�
 * 运行`python test.py`，结果保存在`../result`下
 
 ## 模型
-考虑到实验效果，目前使用多个二分类模型
-参考：[Lin et al. (2017)](http://www.aclweb.org/anthology/D15-1203).
-输入：句子，两实体及相应的位置信息，用于判断并列语句的辅助信息序列
-输出：是否具有相应关系
+考虑到实验效果，目前使用多个二分类模型</br>
+参考：[Lin et al. (2017)](http://www.aclweb.org/anthology/D15-1203).</br>
+输入：句子，两实体及相应的位置信息，用于判断并列语句的辅助信息序列</br>
+输出：是否具有相应关系</br>
 
 ## 结果
 ![pcnn result](https://github.com/zjunlp/deepke/blob/dev/result/result.png)
